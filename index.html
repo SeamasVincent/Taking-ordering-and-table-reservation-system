@@ -1,4 +1,22 @@
+<!DOCTYPE html>
+<html lang="<?php echo $GLOBALS["SEVO"]["SETTINGS"]["lang"]; ?>">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="0; url=https://SeamasVincent.github.io/myapplication/frontend/public/index.php" />
+  <meta http-equiv="refresh" content="1;url=http://SeamasVincent.github.io">
+    <title><?php echo $GLOBALS["SEVO"]["SETTINGS"]["title"]; ?> - <?php echo $site_title; ?></title>
+</head>
+<body>
 
+<?php include DIR . "/templates/header.php"; ?>
 
-<meta http-equiv="refresh" content="1;url=http://www.redirect-location.com">
+<main>
+    <?php get_site($site); ?>
+</main>
 
+<?php include DIR . "/templates/footer.php"; ?>
+    
+</body>
+</html>
